@@ -47,10 +47,14 @@ FAQs
 | ex post facto, allowing merchants to upgrade and use the latest versions of their third-party modules
 | without the significant time commitment and inherent risk that comes with platform upgrades.
 
+|
+
     What happens if our Magento version provides one of the backported classes?
 
 | Nothing happens, that's what. Composer will use the original version, if it is available, or
 | the backported version, if the original version is not available.
+
+|
 
     Are the backported classes different from the original classes provided by Magento?
 
