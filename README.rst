@@ -32,6 +32,31 @@ Classes
 * |backport1|_
 * |backport2|_
 
+FAQs
+====
+
+    Why not simply upgrade the platform?
+
+| Each merchant operates differently and often has vastly different requirements. Particularly
+| for large merchants, upgrading Magento can be cumbersome and risky for myriad reasons, like
+| new and/or incompatible dependencies, deprecation and/or removal of required functionality,
+| and much more. These issues can result in significant downtime and serious loss in revenue,
+| so it generally requires substantial time commitment to ensure the process goes accordingly.
+|
+| ``AuroraExtensions_MagentoBackports`` fills an important void by providing dependent functionality
+| ex post facto, allowing merchants to upgrade and use the latest versions of their third-party modules
+| without the significant time commitment and inherent risk that comes with platform upgrades.
+
+    What happens if our Magento version provides one of the backported classes?
+
+| Nothing happens, that's what. Composer will use the original version, if it is available, or
+| the backported version, if the original version is not available.
+
+    Are the backported classes different from the original classes provided by Magento?
+
+| In terms of functionality, no, they are 100% equivalent. However, we may elect to clean up
+| the source code for several reasons, such as performance and/or readability.
+
 Contribution
 ============
 
