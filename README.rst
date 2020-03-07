@@ -42,6 +42,6 @@ it as a dependency. If you would like to see a backport added, please do either 
 
 * Send PR with the missing backport
    
-*--OR--*
+**--OR--**
 
 * Open an issue to let us know so we can review
