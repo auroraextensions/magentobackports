@@ -1,0 +1,31 @@
+{
+  "name": "auroraextensions/magentobackports",
+  "description": "Backport Magento classes and interfaces for older versions.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nickolas Burr",
+      "email": "nickolasburr@auroraextensions.com"
+    }
+  ],
+  "support": {
+    "email": "support@auroraextensions.com"
+  },
+  "require": {
+    "php": "~7.1.0|~7.2.0|~7.3.0",
+    "magento/framework": "102.*.*",
+    "magento/module-customer": "102.*.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magento\\": "src/"
+    },
+    "exclude-from-classmap": [
+      "/Test/"
+    ]
+  }
+}
