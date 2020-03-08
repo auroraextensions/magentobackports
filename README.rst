@@ -25,12 +25,15 @@ Classes
 
 .. |backport1| replace:: ``Magento\Customer\Model\ForgotPasswordToken\ConfirmCustomerByToken``
 .. |backport2| replace:: ``Magento\Customer\Model\ForgotPasswordToken\GetCustomerByToken``
+.. |backport3| replace:: ``Magento\AsynchronousOperations\Model\OperationSearchResults``
 
 .. _backport1: https://github.com/auroraextensions/magentobackports/blob/master/src/Customer/Model/ForgotPasswordToken/ConfirmCustomerByToken.php
 .. _backport2: https://github.com/auroraextensions/magentobackports/blob/master/src/Customer/Model/ForgotPasswordToken/GetCustomerByToken.php
+.. _backport3: https://github.com/auroraextensions/magentobackports/blob/master/src/AsynchronousOperations/Model/OperationSearchResults.php
 
 * |backport1|_
 * |backport2|_
+* |backport3|_
 
 FAQs
 ====
@@ -41,7 +44,7 @@ FAQs
 | for large merchants, upgrading Magento can be cumbersome and risky for myriad reasons, like
 | new and/or incompatible dependencies, deprecation and/or removal of required functionality,
 | and much more. These issues can result in significant downtime and serious loss in revenue,
-| so it generally requires substantial time commitment to ensure the process goes accordingly.
+| so it requires substantial time commitment to ensure the process goes accordingly.
 |
 | ``AuroraExtensions_MagentoBackports`` fills an important void by providing dependent functionality
 | ex post facto, allowing merchants to upgrade and use the latest versions of their third-party modules
@@ -51,8 +54,7 @@ FAQs
 
     What happens if our Magento version provides one of the backported classes?
 
-| Nothing happens, that's what. Composer will use the original version, if it is available, or
-| the backported version, if the original version is not available.
+| Composer will use the original version if it is available, or the backported version if not.
 
 |
 
