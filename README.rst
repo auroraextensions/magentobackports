@@ -20,20 +20,9 @@ Installation
 Backports
 =========
 
-Classes
--------
+.. _diff: https://github.com/auroraextensions/magentobackports/blob/master/diff
 
-.. |backport1| replace:: ``Magento\AsynchronousOperations\Model\OperationSearchResults``
-.. |backport2| replace:: ``Magento\Customer\Model\ForgotPasswordToken\ConfirmCustomerByToken``
-.. |backport3| replace:: ``Magento\Customer\Model\ForgotPasswordToken\GetCustomerByToken``
-
-.. _backport1: https://github.com/auroraextensions/magentobackports/blob/master/src/AsynchronousOperations/Model/OperationSearchResults.php
-.. _backport2: https://github.com/auroraextensions/magentobackports/blob/master/src/Customer/Model/ForgotPasswordToken/ConfirmCustomerByToken.php
-.. _backport3: https://github.com/auroraextensions/magentobackports/blob/master/src/Customer/Model/ForgotPasswordToken/GetCustomerByToken.php
-
-* |backport1|_
-* |backport2|_
-* |backport3|_
+Backports are grouped by version in the `diff`_ directory.
 
 FAQs
 ====
