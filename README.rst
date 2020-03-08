@@ -23,13 +23,13 @@ Backports
 Classes
 -------
 
-.. |backport1| replace:: ``Magento\Customer\Model\ForgotPasswordToken\ConfirmCustomerByToken``
-.. |backport2| replace:: ``Magento\Customer\Model\ForgotPasswordToken\GetCustomerByToken``
-.. |backport3| replace:: ``Magento\AsynchronousOperations\Model\OperationSearchResults``
+.. |backport1| replace:: ``Magento\AsynchronousOperations\Model\OperationSearchResults``
+.. |backport2| replace:: ``Magento\Customer\Model\ForgotPasswordToken\ConfirmCustomerByToken``
+.. |backport3| replace:: ``Magento\Customer\Model\ForgotPasswordToken\GetCustomerByToken``
 
-.. _backport1: https://github.com/auroraextensions/magentobackports/blob/master/src/Customer/Model/ForgotPasswordToken/ConfirmCustomerByToken.php
-.. _backport2: https://github.com/auroraextensions/magentobackports/blob/master/src/Customer/Model/ForgotPasswordToken/GetCustomerByToken.php
-.. _backport3: https://github.com/auroraextensions/magentobackports/blob/master/src/AsynchronousOperations/Model/OperationSearchResults.php
+.. _backport1: https://github.com/auroraextensions/magentobackports/blob/master/src/AsynchronousOperations/Model/OperationSearchResults.php
+.. _backport2: https://github.com/auroraextensions/magentobackports/blob/master/src/Customer/Model/ForgotPasswordToken/ConfirmCustomerByToken.php
+.. _backport3: https://github.com/auroraextensions/magentobackports/blob/master/src/Customer/Model/ForgotPasswordToken/GetCustomerByToken.php
 
 * |backport1|_
 * |backport2|_
