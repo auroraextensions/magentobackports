@@ -13,17 +13,14 @@
     "email": "support@auroraextensions.com"
   },
   "require": {
-    "php": "~7.1.0||~7.2.0||~7.3.0",
-    "magento/framework": "*",
-    "magento/module-asynchronous-operations": "*",
-    "magento/module-customer": "*"
+    "php": "~7.1.0||~7.2.0||~7.3.0"
   },
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "Magento\\": "src/"
+      "Magento\\": "app/code/Magento/"
     },
     "exclude-from-classmap": [
       "/Test/"
